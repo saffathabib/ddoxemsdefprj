@@ -1,5 +1,6 @@
 <?php
 
+
 require_once ('process/dbh.php');
 $sql = "SELECT * from `employee` , `rank` WHERE employee.id = rank.eid";
 
