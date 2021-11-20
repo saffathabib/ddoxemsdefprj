@@ -1,4 +1,5 @@
 <?php 
+
 	$id = (isset($_GET['id']) ? $_GET['id'] : '');
 	require_once ('process/dbh.php');
 	 $sql1 = "SELECT * FROM `employee` where id = '$id'";
